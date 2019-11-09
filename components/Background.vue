@@ -1,0 +1,32 @@
+<template>
+    <div id="background">
+       <img src="../assets/Images/BingBackground.jpg" alt="">
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'Background'
+}
+</script>
+
+<style scoped>
+#background {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#background img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+</style>
